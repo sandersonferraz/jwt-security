@@ -1,0 +1,1 @@
+# JWT with Spring Boot 6
