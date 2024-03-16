@@ -5,14 +5,14 @@ spring:
   datasource:
     url: jdbc:postgresql://localhost:5432/jwt_security
     username: postgres
-    password: 123
+    password: postgres
     driver-class-name: org.postgresql.Driver
   jpa:
-    hobernate:
+    hibernate:
       ddl-auto: create-drop
     show-sql: true
-    prpoperties:
-      hobernate:
+    properties:
+      hibernate:
         format_sql: true
     database: postgresql
     database-platform: org.hibernate.dialect.PostgreSQLDialect
