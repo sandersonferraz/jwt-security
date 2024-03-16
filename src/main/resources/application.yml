@@ -1,0 +1,19 @@
+server:
+  error:
+    include-stacktrace: ON_PARAM
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/jwt_security
+    username: postgres
+    password: 123
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hobernate:
+      ddl-auto: create-drop
+    show-sql: true
+    prpoperties:
+      hobernate:
+        format_sql: true
+    database: postgresql
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+
