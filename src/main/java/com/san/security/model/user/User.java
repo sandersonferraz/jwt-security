@@ -1,5 +1,6 @@
 package com.san.security.model.user;
 
+import com.san.security.model.role.Role;
 import jakarta.persistence.*;
 import lombok.*;
 import org.springframework.security.core.GrantedAuthority;

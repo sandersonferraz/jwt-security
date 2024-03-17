@@ -1,4 +1,4 @@
-package com.san.security.model.user;
+package com.san.security.model.role;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
