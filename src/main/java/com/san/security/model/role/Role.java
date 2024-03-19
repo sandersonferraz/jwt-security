@@ -20,5 +20,6 @@ public class Role {
     @GeneratedValue
     private Integer id;
     private String name;
+    private String description;
     private  Boolean active;
 }

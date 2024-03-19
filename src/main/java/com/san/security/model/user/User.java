@@ -2,14 +2,16 @@ package com.san.security.model.user;
 
 import com.san.security.model.role.Role;
 import jakarta.persistence.*;
-import lombok.*;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 
 import java.util.Collection;
 import java.util.List;
-import java.util.UUID;
 
 @Data
 @Builder
@@ -21,9 +23,9 @@ public class User implements UserDetails {
 
     @Id
     @GeneratedValue
-    private UUID id;
-    private  String firstName;
-    private String lastName;
+    private Integer id;
+    private  String firstname;
+    private String lastname;
     private String email;
     private String password;
 
